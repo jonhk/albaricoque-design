@@ -1,2 +1,2 @@
-# albaricoque-design
+# Albaricoque Design
 Albaricoque Design Standards
