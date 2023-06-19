@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albaricoque Design Standards</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.typekit.net/tmt3oda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <!--Note: Note: Dark / Light Mode for SVG works mostly in Chromium Blink browsers. Default ico icon works for Gecko browsers -->
+    <!-- For Gecko browsers can be changed manually though does not keep change of theme on refresh -->
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="favicon-dark-192x192.svg">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="favicon-light-192x192.svg">
+    <script src="./js/themeswitcher.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff953b">
+    <meta name="msapplication-TileColor" content="#022709">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="theme-color" content="#022709">
+</head>
+<body>
+    <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+    <button class="btn-translate">
+        <i class="icon-style-tre fa-solid fa-globe"></i>
+        <span class="gtranslate_wrapper"></span>
+    </button>
+    <!-- Desktop Navigation -->
+    <div class="tabl">
+        <div>
+            <div class="tabl-title tabl-links">
+                <p class="title-name">
+                    <img class="logo" src="./img/alba-lg.svg" alt="">
+                    <span class="logo-title">Albaricoque</span>
+                </p>
+                <p class="content-des">2023 Design Standards</p>
+            </div>
+        </div>
+        <button id="defaultOpen" class="tabl-part tabl-links" onclick="openStandard(event, 'Preface')">
+            <i class="icon-style fa-solid fa-book-open"></i>
+            <span>Preface</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Identity')">
+            <i class="icon-style fa-solid fa-fingerprint"></i>
+            <span>Identity</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Voice')">
+            <i class="icon-style fa-solid fa-music"></i>
+            <span>Voice</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Accessibility')">
+            <i class="icon-style fa-solid fa-universal-access"></i>
+            <span>Accessibility</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Typography')">
+            <i class="icon-style fa-solid fa-font"></i>
+            <span>Typography</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Assets')">
+            <i class="icon-style fa-solid fa-object-group"></i>
+            <span>Assets</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Colors')">
+            <i class="icon-style fa-solid fa-palette"></i>
+            <span>Colors</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Imagery')">
+            <i class="icon-style fa-solid fa-photo-film"></i>
+            <span>Imagery</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Logos')">
+            <i class="icon-style fa-solid fa-bezier-curve"></i>
+            <span>Logos</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Icons')">
+            <i class="icon-style fa-solid fa-icons"></i>
+            <span>Icons</span>
+        </button>
+        <button class="tabl-part tabl-links" onclick="openStandard(event, 'Conclusion')">
+            <i class="icon-style fa-solid fa-book"></i>
+            <span>Conclusion</span>
+        </button>
+    </div>
+    <!-- Content Section -->
+    <div id="Preface" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Preface</h1>
+                <h2>Design Introduction</h2>        
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_preface.svg" alt="">
+        </div>
+    </div>
+    <div id="Identity" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Identity</h1>
+                <h2>Creating a brand</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_identity.svg" alt="">
+        </div>
+    </div>
+    <div id="Voice" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Voice</h1>
+                <h2>Finding a message</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_voice.svg" alt="">
+        </div>
+    </div>
+    <div id="Accessibility" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Accessibility</h1>
+                <h2>Design for Disabilities</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_accessibility.svg" alt="">
+        </div>
+    </div>
+    <div id="Typography" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Typography</h3>
+                <h2>Creating a style</h4>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_fonts.svg" alt="">
+        </div>
+    </div>
+    <div id="Assets" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Design Assets</h1>
+                <h2>Colors, Logos, and Imagery</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_assets.svg" alt="">
+        </div>
+        <div class="body-text-block-ctr">
+            <div class="body-text-block">
+                <table>
+                    <tr>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>                        
+                    </tr>
+                    <tr>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>
+                        <a href="" class="ats-img">
+                            <img src="./img/undraw_mobile.svg" alt="">
+                            <button></button>
+                        </a>                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="Colors" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Colors</h1>
+                <h2>Color Palet and Theme</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_colors.svg" alt="">
+        </div>
+    </div>
+    <div id="Imagery" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Imagery</h1>
+                <h2>Visual Identity</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_photos.svg" alt="">
+        </div>
+    </div>
+    <div id="Logos" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Logos</h1>
+                <h2>The Design System</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_logos.svg" alt="">
+        </div>
+    </div>
+    <div id="Icons" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Icons</h1>
+                <h2>Icons that define the brand</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_icons_wdp4.svg" alt="">
+        </div>
+    </div>
+    <div id="Conclusion" class="tabl-content">
+        <div class="cover-title-ctr">
+            <div class="cover-title-ctr-wr">
+                <h1>Conclusion</h1>
+                <h2>Credits & Closing Thoughts</h2>
+            </div>
+        </div>
+        <div class="cover-img-ctr">
+            <img class="cover-img-contain" src="./img/undraw_conclusion.svg" alt="">
+        </div>
+        <div class="body-text-block-ctr">
+             <div class="body-text-block">
+                <h5 class="top-b">Credits</h5>
+                <p class="body-title-1">Professor and Supervising Design Lead</p>
+                <p class="body-text-1">Professor Hector Torres</p>
+                <p class="body-title-1">Class & College Created</p>
+                <p class="body-text-1">Web Design 2, Santa Monica College</p>
+                <p class="body-title-1">Design Concept and Project Design</p>
+                <p class="body-text-1">Jonathan Hackner</p>
+                <h5 class="top-b">Closing Thoughts</h5>
+                <p class="body-text-2 bt-ind">This project was created with the goal of creating an eCommerce website that both creates a inclusive space and memorable brand. With advisory of Professor Torres and the critiques from design peers in class, this project developed into finished product.</p>
+                <p class="body-text-2 bt-ind">The goal</p>
+             </div>  
+        </div>
+    </div>
+    <!-- Desktop Navigation Script -->
+    <script>
+        function openStandard(evt, standardName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabl-content");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tabl-links");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(standardName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+        <script> </script>
+</body>
+</html>
