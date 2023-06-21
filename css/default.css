@@ -218,7 +218,7 @@ button {
 }
 .body-text-block-ctr {
   width: 100%;
-  height: 30vw;
+  height: auto;
   display: flex;
   justify-content: center;
   margin-top: 2%;
@@ -226,6 +226,7 @@ button {
 }
 .body-text-block {
   width: 95%;
+  height: auto;
   color: #d4f7ca;
   background-color: #272002;
   border-radius: 1.5vw;
@@ -262,8 +263,65 @@ button {
 h5 { 
   font-size: 1.57vw;
 }
-.ats-img img {
-  width: 22.5vw;
-  height: auto;
+.ats-img {
+  text-decoration: none;
 }
-
+.ats-img img {
+  width: 20.5vw;
+  height: 11vw;
+  object-fit: contain;
+  border-top-left-radius: 1.5vw;
+  border-top-right-radius: 1.5vw;
+  background-color: #022709;
+}
+.ats-ctr {
+  width: 95%;
+  height: 40vw;
+  font-size: 0;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: auto;
+}
+.ats-ctr-cm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.ats-btn {
+  display: block;
+  width: 20.5vw;
+  height: 5vw;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  font-size: 1.3vw; 
+  border-bottom-left-radius: 1.5vw;
+  border-bottom-right-radius: 1.5vw;
+  color: #022709;
+  background-color: #FF953B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ats-icons-wr {
+  width: 2.3vw;
+  height: 2.3vw;
+  background-color: #022709;
+  color: #FF953B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.65vw;
+  margin-right: 5%;
+}
+.ats-icons {
+  font-size: 1;
+}
+.ats-btn:hover {
+  color: #FF953B;
+  background-color: #022709;
+}
+.ats-btn:hover .ats-icons-wr {
+  color: #022709;
+  background-color: #FF953B;
+}
